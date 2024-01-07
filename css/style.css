@@ -1,0 +1,38 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background: url("../assets/hero.jpeg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 575.98px) {
+  .about > .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about > img {
+    width: 300px !important;
+  }
+
+  .product > .container > div {
+    flex-direction: column;
+  }
+
+  .partner > .container > div {
+    flex-direction: column;
+  }
+}
